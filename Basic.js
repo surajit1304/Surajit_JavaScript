@@ -21,7 +21,7 @@ let firstName;
 // null
 let lastName = null;
 
-//string
+//string another example
 const user1 = "Shaihd";
 const age = 30;
 
