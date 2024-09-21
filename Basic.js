@@ -8,7 +8,7 @@ let username = "Surjit";
 const interestRate = 8;
 
 // datatypes in JavaScript are ->
-//String
+//String Example
 let user = "Shahid";
 user = 10;
 // console.log(user);
