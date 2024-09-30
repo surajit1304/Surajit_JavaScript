@@ -11,7 +11,7 @@ const interestRate = 8;
 //String
 let user = "Shahid";
 user = 10;
-// console.log(user);
+console.log(user);
 // Number
 let num = 10;
 // Boolean
