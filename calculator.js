@@ -8,6 +8,7 @@
 // 5. result output
 
 // start here
+//Nan - is "not a Number" if you do not put anything when prompted 
 
 // 1. -> take input from user to perform action
 let operation = prompt("Enter operation (+,-,*,/)")
@@ -27,12 +28,18 @@ if(operation === "+"){
    console.log(result)
 }
 if(operation === "-"){
+  let result = first - second 
+  console.log(result)
   //  
 }
 if(operation === "*"){
+  let result = first * second 
+  console.log(result)
   //  
 }
 if(operation === "/"){
+  let result = first / second 
+  console.log(result)
    // 
 }
 
