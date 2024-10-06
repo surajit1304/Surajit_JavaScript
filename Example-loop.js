@@ -21,8 +21,9 @@
 // break
 // default:
 // console.log ("ignore -not an user")
-//
-
+//// Ways to declare Variable : Three ways 
+// var, let, const
+// Tool : git-scm, node js and Visual studio
 // how the for loop works ->
 // 1. initialize the thing -> we initialize i =1
 // 2. condition -> check the condition, if the condition true then the controls is goes inside the block
