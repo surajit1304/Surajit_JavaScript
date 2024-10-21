@@ -72,9 +72,9 @@ for (let i=1;i<=10;i++)
     console.log(i)
 
 
-// 9. Iterate over an array= [1,2,3,4,5,6,7,8,9] and log the result
+// 9. Iterate over an array= [1,2,3,4,5,6 and log the result
 let myArray=[1,2,3,4,5,6];
-for(let i=0;i<myArray.length;i++){
+for(let i=0;i<myArray.length;i++){//myArray.length means
     console.log(myArray[i])}
 
 // 10.Iterate over an object which you have created in task 4
