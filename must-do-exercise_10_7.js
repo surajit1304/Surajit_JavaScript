@@ -20,8 +20,8 @@ console.log(carNames);
 
 
 // 4. create an object of name country and put some key value pairs like capital,  number of states, etc
-let country = {
-    name: "USA",
+let country = {// Country is an object.
+    name: "USA",// name = Key, USA is the value
     population: "330 million",
     perCapitaIncome: "60,000 dollars"
 };
@@ -73,16 +73,37 @@ for (let i=1;i<=10;i++)
 
 
 // 9. Iterate over an array= [1,2,3,4,5,6 and log the result
-let myArray=[1,2,3,4,5,6];
-for(let i=0;i<myArray.length;i++){//myArray.length means
+let myArray=[1,2,3,4,5,6,7,8,9,10,11];
+
+
+for(let i=0; i < myArray.length; i++){//myArray.length means=6, it can be hardcoded but myArray.length gives you theflexibility. 
     console.log(myArray[i])}
 
 // 10.Iterate over an object which you have created in task 4
 
+// Javascript update 
 // for of  => iterate over array
 // for in  => iterate over object
 
 
-for (let index in carNames) {// For in is being used for array, not just object in this case 
-  console.log(index, carNames[index]);// printing the value like red, black, purple as per the
-}
+// for (let index in carNames) {// For in is being used for array, not just object in this case 
+//   console.log(index, carNames[index]);// printing the value like red, black, purple as per the
+// }
+
+const country1 = {
+    name: "USA",
+    latitute: 2662,
+    longitute: 78990,
+  };
+  
+  console.log(country1);
+  // syntax
+  // for(let anything in objectYouMade){
+  // your code here
+  // }
+  
+  for (let anything in country1) {
+    //   console.log(anything); // will prints only keys -> name , latitute, longitute
+    console.log(anything, country1[anything]);
+  }
+  
