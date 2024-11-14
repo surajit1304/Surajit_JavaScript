@@ -11,10 +11,17 @@
 //this is another form of sysntax with a lesser number of lines for eg, we are not 
 //using the keyword function, lesser number of lines , more efficient
 
-const functionNew = (num)=>{
+function Surajit(){
+    console.log("FirstName") // firstname
+}
+const username = Surajit();
+
+
+// arrow function
+const old =(num)=>{// => replaces the function name and the keyword. It is a preferred way of writing
 console.log(num)
 }
-functionNew(5)// we called the function and passed parameter 5 
+old(5)// we called the function and passed parameter 5 
 
 // Global scope and Local Scope in a function call
 

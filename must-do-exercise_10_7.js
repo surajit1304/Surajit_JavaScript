@@ -101,8 +101,9 @@ const country1 = {
   // for(let anything in objectYouMade){
   // your code here
   // }
+
   
-  for (let anything in country1) {
+  for (let anything in country1) {// 
     //   console.log(anything); // will prints only keys -> name , latitute, longitute
     console.log(anything, country1[anything]);
   }
