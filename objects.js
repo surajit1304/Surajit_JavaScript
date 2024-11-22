@@ -68,7 +68,7 @@ console.log(car);
 let g = 8; // different variables
 let h = g; // are different variable 
 g = 10;
-console.log(g)
+console.log(g)// Console is a 
 console.log(h)
 
 
@@ -83,6 +83,7 @@ const old= {
     age:30,
     gender:'male',
     country:"India"
+    
 }
 
 const j = old;
@@ -92,8 +93,11 @@ console.log("J->", j); // Shahid
 
 console.log("old->",old);
 
+setInterval(()=>{
+  console.log("Settimeout")
+},3000)
 
 
 
 
-
+console.log("Hello")
