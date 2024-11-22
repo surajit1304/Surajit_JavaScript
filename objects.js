@@ -2,9 +2,9 @@
 
 const car = {// object is defined by curly braces just like array defined by sqare bracket
     //object can get an array, function, variable,nested-object etc
-    // Colon iseparated Key Value pair
+    // Colon is separated Key Value pair
     // Created a object car , and added key value - string and a function accelerate in this case "type"
-    name:'Audi A4',
+    name:'Audi A4',//Key value pair
     color:'white',
     modal:2024,
     accelerate:function(){// accelerate is the function. In this case function is the keyword to create function
@@ -89,7 +89,7 @@ const old= {
 const j = old;
 console.log(j);
 j.username = "Shahid";
-console.log("J->", j); // Shahid
+console.log("J->", j); // j-> : 
 
 console.log("old->",old);
 
